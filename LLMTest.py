@@ -89,7 +89,7 @@ def clean_generated_code(output: str) -> str:
     return ""
 
 # Open a text file to save the results
-with open("results.txt", "w") as file:
+with open("QA_on_Tabular_Data/results.txt", "w") as file:
     # Loop through each question in the DataFrame
     for i in range(len(df_QA)):
         if i % 20 == 0:
